@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.io.IOException;
 
 public class Main {
@@ -15,9 +13,6 @@ public class Main {
         pin += (char)System.in.read();
         scannedPin = Integer.parseInt(pin);
 
-        System.out.println(pin);
         System.out.println("Account accessible? " + (VALID_PIN == scannedPin));
-
-
     }
 }
